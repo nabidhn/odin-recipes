@@ -1,0 +1,43 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Font weight utilities */
+.bold {
+  font-weight: bold;
+}
+
+.thin-text {
+  font-weight: normal;
+}
+
+/* Font size classes */
+.large {
+  font-size: 24px;
+}
+
+.small {
+  font-size: 16px;
+}
+
+/* Button styles */
+button {
+  font-weight: normal;
+  padding: 6px 12px;
+  font-size: 16px;
+}
+
+.confirm {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.cancel {
+  background-color: transparent;
+  color: black;
+  font-weight: normal;
+  border: 2px solid black;
+}
